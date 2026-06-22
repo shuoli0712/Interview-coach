@@ -26,7 +26,7 @@
 
 在 Claude Code、Codex、OpenClaw 等支持 Skill 的 Agent 里，直接说：
 
-> "帮我安装这个skill：https://github.com/shuoli0712/Interview-Q-A/"
+> "帮我安装这个skill：https://github.com/shuoli0712/Interview-Q-A"
 
 Agent 会自己 clone 到对应目录，不用你操心路径。
 
