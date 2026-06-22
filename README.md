@@ -1,4 +1,4 @@
-# AI 面试陪练 · Interview Coach
+# AI 面试准备 · Interview Coach
 
 > 一个面向 **AI Agent** 的面试陪练技能（Skill），兼容 OpenClaw、Codex CLI 及其他支持 SKILL.md 规范的 AI Agent 平台。
 
