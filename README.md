@@ -24,27 +24,11 @@
 
 ## 安装方法
 
-将 `SKILL.md` 放入对应平台的 Skill 目录即可。单文件设计，无外部分文件依赖。
+在 Claude Code、Codex、OpenClaw 等支持 Skill 的 Agent 里，直接说：
 
-### OpenClaw
+> "帮我安装这个skill：https://github.com/shuoli0712/Interview-Q-A/"
 
-```bash
-cp SKILL.md ~/.openclaw/workspace-123/skills/interview-coach/SKILL.md
-```
-
-### Codex CLI
-
-```bash
-cp SKILL.md ~/.codex/superpowers/skills/interview-coach/SKILL.md
-```
-
-### 其他平台
-
-将 `SKILL.md` 放入对应平台的 Skill 目录。你也可以直接让 Agent 帮你完成安装——发送：
-
-> "帮我安装面试陪练技能"
-
-如果 Agent 支持自动安装技能，它会在对话中指导你完成。
+Agent 会自己 clone 到对应目录，不用你操心路径。
 
 ## 流程概览
 
